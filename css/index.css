@@ -1,0 +1,32 @@
+@import url("./header.css");
+@import url("./banner.css");
+@import url("./product.css");
+@import url("./modal.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  padding: 0 30px;
+}
+
+.body__container {
+  width: 1150px;
+}
+
+p,
+a {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Open Sans", sans-serif;
+}

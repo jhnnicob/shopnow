@@ -1,0 +1,32 @@
+.product {
+  margin-top: 50px;
+}
+
+.product__row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.product__item img {
+  width: 230px;
+}
+
+.product__item {
+  text-align: center;
+}
+
+.product__addToCart {
+  width: 100px;
+  margin-top: 5px;
+  padding: 5px 10px;
+  background-color: #ff7465;
+  color: white;
+  border: 1px none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.product__addToCart:hover {
+  background-color: #dd5647;
+}

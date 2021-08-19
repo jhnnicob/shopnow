@@ -1,0 +1,41 @@
+.banner {
+  margin-top: 40px;
+  display: flex;
+  padding-top: 100px;
+}
+
+.category {
+  flex-grow: 0.4;
+}
+
+.category__body > h3 {
+  font-size: 25px;
+}
+
+.category__item {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.category__item > a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+.category__item > svg {
+  color: #ff7465;
+}
+
+.category__item > a:hover {
+  color: #ff7465;
+}
+
+.banner__img {
+  flex-grow: 0.8;
+}
+.banner__img > img {
+  width: 100%;
+}

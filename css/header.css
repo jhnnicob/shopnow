@@ -1,0 +1,74 @@
+header {
+  position: fixed;
+  background-color: white;
+  width: 1150px;
+  padding: 10px 0;
+}
+
+.header__strip {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header__strip > a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #ff7465;
+  font-size: 14px;
+}
+
+.header__body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.header__middle {
+  flex-grow: 0.8;
+  margin-left: 40px;
+}
+
+.header__search {
+  display: flex;
+  border: 1px solid #d9d9d9;
+  padding: 10px 15px;
+  border-radius: 30px;
+}
+
+.header__search-input {
+  border: none;
+  outline: none;
+  padding-left: 10px;
+  font-size: 17px;
+}
+
+.header__right {
+  display: flex;
+  justify-content: center;
+  flex: 0.2;
+}
+
+.header__button-cart {
+  border: none;
+  cursor: pointer;
+  background-color: none;
+}
+
+.header__button {
+  position: relative;
+}
+
+.header__addToCart-counter {
+  position: absolute;
+  right: -12px;
+  top: -5px;
+  background-color: red;
+  padding: 2px;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  color: white;
+  font-size: 13px;
+}
